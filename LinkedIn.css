@@ -1,0 +1,316 @@
+body {
+    display: grid;
+    margin: 0;
+}
+
+
+
+
+
+.TopBar {
+ margin: 0 15% 0 15%;
+ width: 70%;
+ height: 50px;
+ padding: 0;
+ background-color: rgb(255, 255, 200, 0);
+ box-sizing: border-box;
+ display: flex;
+}
+#LinkedInpng {
+    margin: 0;
+    width: 50%;
+    background-color: rgba(255, 255, 255, 0);
+    height: 100%;
+    box-sizing: border-box;
+}
+#LinkedInPNG {
+    width: 30%;
+    height: 50px;
+    padding: 10px 0 0 0 ;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+#TopLeft {
+    width: 50%;
+    height: 100%;
+    background-color: rgba(255, 255, 255 ,0);
+    display: flex;
+    box-sizing: border-box;
+    justify-content: space-between;
+    align-items: center;
+}
+.Divition {
+    width: 14%;
+    height: 90%;
+    background-color: #ffffff00;
+    opacity: 0.5;
+    cursor: pointer;
+}
+.Divition:hover {
+    opacity: 1;
+}
+#iconPng {
+    width: 50%;
+    height: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 20%;
+}
+.cite1 {
+    font-size: 70%;
+    margin: -2% 0 0 20%;
+}
+.cite2 {
+    font-size: 70%;
+    margin: -2% 0 0 30%;
+}
+.cite3 {
+    font-size: 70%;
+    margin: -2% 0 0 20%;
+}
+.cite4 {
+    font-size: 70%;
+    margin: -3px 0 0 35%;
+}
+.Divition2 {
+    width: 19%;
+    height: 90%;
+    background-color: #ffffff00;
+    opacity: 0.5;
+}
+.Divition2:hover {
+    opacity: 1;
+}
+#Border {
+    border-right: 1px solid black;
+    margin-top: 3px;
+}
+#Join2 {
+    background-color: #ffffff00;
+    width: 100%;
+    margin-top: 10px;
+    border: 0;
+    border-radius: 24px;
+    padding: 10px 0;
+    cursor: pointer;
+}
+#Join2:hover {
+    background-color: #fafafa;
+}
+#join2 {
+    margin: 0;
+    font-size: 100%;
+    font-weight: 600;
+}
+#Sign2 {
+    background-color: #ffffff00;
+    width: 100%;
+    margin: 0;
+    margin-top: 10px;
+    border: 1px solid blue;
+    border-radius: 24px;
+    padding: 10px 0;
+    cursor: pointer;
+}
+#sign2 {
+    margin: 0;
+    font-size: 100%;
+    font-weight: 600;
+    color: blue;
+    opacity: 0.8;
+}
+
+
+
+
+
+#Headline {
+    margin: 0px 50% 0 15%;
+    width: 35%;
+    height: 150px;
+    padding: 35px 0 0 1px;
+    background-color: rgba(255, 255, 255, 0);
+    box-sizing: border-box;
+   
+}
+#HeadlineP {
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', 'Fira Sans', Ubuntu, Oxygen, 'Oxygen Sans', Cantarell, 'Droid Sans', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Lucida Grande', Helvetica, Arial, sans-serif;
+    display: inline;
+    max-width: 100%;
+    font-size: 50px;
+    color: #8f5849;
+    font-weight: lighter;
+}
+
+
+
+
+
+.left {
+    margin-left: 15%;
+    margin-top: 45px;
+    width: 30%;
+    position: relative;
+    background-color: rgb(255, 255, 255);
+}
+.Label {
+    color: #424242;
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', 'Fira Sans', Ubuntu, Oxygen, 'Oxygen Sans', Cantarell, 'Droid Sans', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Lucida Grande', Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+}
+#Space1 {
+    margin-bottom: 10px;
+}
+#Space2 {
+    margin-bottom: 10px;
+}
+#Identity {
+    width: 100%;
+    border-radius: 4px;
+    border-width: 1px;
+    border-style: solid;
+    padding: 14px 16px;
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', 'Fira Sans', Ubuntu, Oxygen, 'Oxygen Sans', Cantarell, 'Droid Sans', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Lucida Grande', Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    box-sizing: border-box;
+    margin-top: 10px;
+}
+#Identity:hover {
+    cursor: pointer;
+    background-color: #fafafa;
+}
+#Password {
+    width: 100%;
+    border-radius: 4px;
+    border-width: 1px;
+    border-style: solid;
+    padding: 14px 16px;
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', 'Fira Sans', Ubuntu, Oxygen, 'Oxygen Sans', Cantarell, 'Droid Sans', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Lucida Grande', Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    box-sizing: border-box;
+    margin-top: 10px;
+}
+#Password:hover {
+    cursor: pointer;
+    background-color: #fafafa;
+}
+#Forgot {
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', 'Fira Sans', Ubuntu, Oxygen, 'Oxygen Sans', Cantarell, 'Droid Sans', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Lucida Grande', Helvetica, Arial, sans-serif;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    width: fit-content;
+    text-decoration: none;
+    color: #0a66c2;
+}
+#Forgot:hover {
+    color: #0073b1;
+    text-decoration: underline;
+}
+#Sign {
+    width: 100%;
+    border: 1px solid transparent;
+    box-shadow: 0 0 0 1px transparent;
+    background-color: #0a66c2;
+    color: #ffffff;
+    height: min-content;
+    min-height: 48px;
+    border-radius: 24px;
+    padding: 12px 24px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.25;
+}
+#Sign:hover {
+    background-color: #004182;
+    cursor: pointer;
+}
+.Line {
+    margin: 24px 0 ;
+    width: 100%;
+    align-items: center;
+    display: flex;
+}
+.Line > hr {
+    width: 40%;
+    padding: 0;
+    color: rgba(0, 0, 0, 0.3);
+}
+.Line > span {
+    font-family: -apple-system,system-ui,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Fira Sans,Ubuntu,Oxygen,Oxygen Sans,Cantarell,Droid Sans,Apple Color Emoji,Segoe UI Emoji,Segoe UI Emoji,Segoe UI Symbol,Lucida Grande,Helvetica,Arial,sans-serif;;
+    color: rgba(0, 0, 0, 0.9);
+    padding: 0 10px;
+}
+.Google {
+    width: 100%;
+    display: flex;
+    border: 1px solid black;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    cursor: pointer;
+    height: min-content;
+    max-height: 48px;
+    border-radius: 24px;
+    margin-bottom: 5px;
+}
+#GoogleImg {
+    width: 26px;
+    padding-right: 15px;
+}
+#GoogleLink {
+    text-decoration: none;
+}
+#GoogleText {
+    font-family: "Google Sans",arial,sans-serif;
+    color: #3c4043;
+    font-size: 16px;
+    text-decoration: solid;
+    font-weight: 500;
+    letter-spacing: 0.25;
+}
+.Google:hover {
+    background-color: #fafafa;
+}
+#Join1 {
+    width: 100%;
+    border: 1px solid black;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    cursor: pointer;
+    height: min-content;
+    font-family: "Google Sans",arial,sans-serif;
+    max-height: 48px;
+    text-decoration: solid;
+    border-radius: 24px;
+    margin: 10px 0 ;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.25;
+}
+#Join1:hover {
+    background-color: #fafafa;
+}
+
+
+
+
+
+.right {
+    margin-left: 50%;
+    margin-top: -580px;
+    margin-right: 5%;
+    height: 580px;
+    position: relative;
+    box-sizing: border-box;
+    
+}
+#image {
+    position: relative;
+    margin: 0;
+    width: 100%;
+}
